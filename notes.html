@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<!-- Thanks a lot in advance for your feedback! I hope its fine now-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <title>My notes</title>
+  </head>
+  <body>
+    <header class="header">
+        <h1>Introduction To Programming</h1>
+    </header>
+
+    <nav class="table">
+        <ol>
+            <li><a href="#1">How the Web Works</a></li>
+            <li><a href="#2">Elements and Tags</a></li>
+            <li><a href="#3">Inline and Block elements</a></li>
+            <li><a href="#4">HTML - "Tree-Like Structure"</a></li>
+            <li><a href="#5">Avoiding Repetition</a></li>
+            <li><a href="#6">CSS</a></li>
+        </ol>
+    </nav>
+
+    <article>
+        <h2>The Most Important Things to Remember</h2>
+        <div class="lesson" id="1">
+            <h3>How the Web Works</h3>
+                <p>
+                    The web is a collection of HTML documents. HTML stands for <em>Hypertext Markup Language</em>. The links between webs are called <em>hyper links.</em>
+                </p>
+        </div>
+
+        <div class="lesson" id="2">
+            <h3>Elements and Tags</h3>
+                <p>
+                    HTML documents are made of HTML <b>elements</b>. When
+                    writing HTML, we tell browsers the type of each element by using HTML <b>tags</b>. <em>You dont have to remember all tags or attributes, just understand how HTML works and find the details when you need them.</em> <a href="http://www.w3schools.com/tags/" target="_blank">Nice list of Tags.</a>
+                </p>
+        </div>
+
+        <div class="lesson" id="3">
+            <h3>Inline and Block Elements</h3>
+                <p>
+                    HTML elements are either <b>inline</b> or <b>block</b>. Block elements form an "invisible box" around the content inside of them (<b>&lt;DIV&gt;</b> is the typical example).
+                </p>
+        </div>
+
+        <div class="lesson" id="4">
+            <h3>HTML - "Tree-Like Structure"</h3>
+                <p>
+                    DOM stands for <em>Document Object Model</em> (tree-like structure). The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them (boxes inside of boxes inside of boxes...).
+                    <br><a href="http://validator.w3.org/#validate_by_input" target="_blank">Validate your HTML here</a>
+                </p>
+        </div>
+
+        <div class="lesson" id="5">
+            <h3>Avoiding Repetition</h3>
+                <p>
+                    When programmers <em>don't</em> avoid repetition, they will often have to do the same thing over and over. This can lead to inefficiency and errors (when the programmer decides to make a change to something, he/she will have to remember to change it everywhere). 
+                    <!--Overloading the server could be an example?-->
+                </p>
+                <p>
+                    <b>Example</b>: If you give the same style to similar elements, you can reap the benefits of this when you quickly and easily modify all of them at once just by changing a single line of CSS.
+                </p>
+        </div>
+
+        <div class="lesson" id="6">
+            <h3>CSS</h3> 
+                <p>
+                    CSS = <em>Cascading Style Sheets</em>. With CSS we can style the HTML elements.
+                    <br><b>Example:</b> Give to similar HTML elements the same class name and then specify the style that should apply to that class.
+                </p> 
+                <p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">Link to attributes in CSS</a>
+                    <br> <a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">Validate your CSS here</a>
+                </p>   
+        </div>
+    </article>
+    <footer>
+        <p>
+            &copy;Udacity Notes 2015, <em>To Be Continued...</em>
+        </p>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="¡CSS Válido!" /></a>
+        </p>
+    </footer>
+  </body> 
+</html>
+
+<!--Have a great day!-->
