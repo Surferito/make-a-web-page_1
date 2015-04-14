@@ -1,0 +1,74 @@
+/*Thanks a lot for your help.*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.4em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	color: #314046;
+}
+
+h2 {
+	text-align: center; 
+	margin: 10px;
+}
+
+h3 {
+	color: #46bbe3;
+}
+
+a { 
+	color: #46bbe3; 
+	min-height: 48px;
+	min-width: 48px;  
+}
+
+p {
+	margin: 10px 0;
+}
+
+li {
+	font-size: 20px;
+	line-height: 44px; 
+}
+
+h3 {
+	font-size: 28px;
+	margin: 8px;
+	text-align: center;
+}
+
+.table {
+	padding: 15px;
+}
+
+article {
+	background-color: #F7F9FB;
+	color: #314046;
+	border-radius: 6px;
+	padding: 10px;
+	margin: 0 auto;
+	width: 95%;
+	border: 6px solid #fff;
+	/* Trying shadows ... */
+	box-shadow: rgba(0, 0, 1, 0.298039) 0px 1px 5px 0px, rgba(0, 0, 0, 0.0980392) 0px 0px 18px 0px inset;
+		
+}
+
+.lesson {
+	background-color: white;
+	border-radius: 1px;
+	border: 2px solid #fff;
+	box-shadow: rgba(0, 0, 1, 0.298039) 0px 1px 5px 0px, rgba(0, 0, 0, 0.0980392) 0px 0px 18px 0px inset;
+	padding: 10px;
+	margin: 15px;
+}
+
+footer {
+	text-align: center;
+	/*I didnt understand your commment "You are aligning text to "center" in several different elements. Can you avoid this by implementing the few elements which is NOT center justified?"*/
+}
